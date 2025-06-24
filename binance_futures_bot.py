@@ -5,6 +5,8 @@ from binance.enums import *
 from binance.exceptions import BinanceAPIException
 import sys
 
+ORDER_TYPE_STOP_MARKET = 'STOP_MARKET'
+
 # Configure logging
 logging.basicConfig(
     filename='binance_futures_bot.log',
